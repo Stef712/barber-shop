@@ -3,28 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Modern Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Site -->
     <title>BarberShop</title>
   </head>
   <body>
     <!-- Hero Section -->
-    <section>
+    <section class="white-background">
       <!-- SideBar -->
       <!-- Logo -->
-      <a href="#index">
-        <img src="./images/Logo.jpg" alt="Imagine Logo" />
+      <a href="#index"
+        ><svg width="69" height="56">
+          <use href="./images/icons.svg#logo"></use>
+        </svg>
       </a>
       <!-- Social Media Links -->
       <ul>
         <li>
-          <a href="https://www.instagram.com/">Instagram</a>
+          <a href="https://www.instagram.com/" class="social-media-link"
+            >Instagram</a
+          >
         </li>
         <li>
-          <a href="https://www.youtube.com/">Youtube</a>
+          <a href="https://www.youtube.com/" class="social-media-link"
+            >Youtube</a
+          >
         </li>
       </ul>
       <!-- Divider -->
-      <img src="./images/Rectangle 4.jpg" alt="divider vertical" />
-      <!-- Header Section -->
+      <svg width="69" height="56">
+        <use href="./images/icons.svg#slider"></use>
+      </svg>
+    </section>
+    <!-- Header Section -->
+    <section class="gray-background">
       <header>
         <nav>
           <ul>
@@ -45,30 +73,37 @@
         </address>
         <button type="button">book a Service</button>
       </header>
-      <!-- Hero Content -->
-      <section>
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
-        <h3>A hair salon for men in Kyiv</h3>
-        <h1>BarberShop</h1>
-        <img src="./images/Slider Navigation_1.jpg" alt="Slider Navigation" />
-        <p>
-          We are experts in trendy men's haircuts. We work quickly, carefully,
-          and tastefully.
-        </p>
-      </section>
+    </section>
+    <!-- Hero Content -->
+    <section class="gray-background">
+      <svg width="69" height="56">
+        <use href="./images/icons.svg#slider"></use>
+      </svg>
+      <h3>A hair salon for men in Kyiv</h3>
+      <h1>BarberShop</h1>
+      <p>
+        We are experts in trendy men's haircuts. We work quickly, carefully, and
+        tastefully.
+      </p>
       <!-- Control Buttons -->
       <button type="button">Back</button>
-      <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <svg width="69" height="56">
+        <use href="./images/icons.svg#slider"></use>
+      </svg>
       <button type="button">Next</button>
-      <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <svg width="69" height="56">
+        <use href="./images/icons.svg#slider"></use>
+      </svg>
     </section>
     <main>
       <!-- About Section -->
-      <section>
-        <img src="./images/img 1.jpg" alt="Image 1" />
-        <img src="./images/img 2.jpg" alt="Image 2" />
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
-        <h3>About</h3>
+      <section class="white-background">
+        <img src="./images/about/barber-trim.jpg" alt="Image 1" />
+        <img src="./images/about/hair-cut.jpg" alt="Image 2" />
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
+        <h3 id="about">About</h3>
         <h2>The Best Barbershop in Your City</h2>
         <p>
           If you want to add more confidence to your image, you are definitely
@@ -84,10 +119,12 @@
         <button type="button">book a service</button>
       </section>
       <!-- Price Section -->
-      <section>
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <section class="gray-background">
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
         <h3>Spend time in the company of the best craftsmen</h3>
-        <h2>Services and Prices</h2>
+        <h2 id="prices">Services and Prices</h2>
         <ul>
           <li>Men's Haircut from 300 UAH</li>
           <li>Beard Trim from 200 UAH</li>
@@ -103,28 +140,30 @@
         <button type="button">book a Service</button>
       </section>
       <!-- Why Section -->
-      <section>
+      <section class="white-background">
         <!-- Left Sub-section -->
         <ul>
           <li>
-            <h3>600+</h3>
+            <h3>600<sup>+</sup></h3>
             <p>Satisfied Customers per Day</p>
           </li>
           <li>
-            <h3>50+</h3>
+            <h3>50<sup>+</sup></h3>
             <p>Excellent Service Awards</p>
           </li>
           <li>
-            <h3>20+</h3>
+            <h3>20<sup>+</sup></h3>
             <p>The Best Barbers of Kyiv</p>
           </li>
           <li>
-            <h3>100+</h3>
+            <h3>100<sup>+</sup></h3>
             <p>Gifts for Regular Customers</p>
           </li>
         </ul>
         <!-- Right Sub-section -->
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
         <h3>Old school</h3>
         <h2>Why do they come to us?</h2>
         <p>
@@ -133,57 +172,131 @@
         </p>
       </section>
       <!-- Our Barbers Section -->
-      <section>
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <section class="suply-background">
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
         <h3>for true connoisseurs of the atmosphere</h3>
-        <h2>Our Barbers</h2>
+        <h2 id="barbers">Our Barbers</h2>
         <ul>
           <li>
-            <img src="./images/john-smith.jpg" alt="John Smith" />
+            <img src="./images/barbers/john-smith.jpg" alt="John Smith" />
             <h4>John Smith</h4>
             <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </li>
+            </ul>
           </li>
           <li>
-            <img src="./images/michele-doe.jpg" alt="Michele Doe" />
+            <img src="./images/barbers/michele-doe.jpg" alt="Michele Doe" />
             <h4>Michele Doe</h4>
             <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </li>
+            </ul>
           </li>
           <li>
-            <img src="./images/alan-black.jpg" alt="Alan Black" />
+            <img src="./images//barbers/alan-black.jpg" alt="Alan Black" />
             <h4>Alan Black</h4>
             <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </li>
+              <li>
+                <svg width="69" height="56">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
       <!-- Portfolio Section -->
-      <section>
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <section class="white-background">
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
         <h3>In Latin, "barba" means "beard"</h3>
-        <img src="./images/first.jpg" alt="First Image" />
-        <img src="./images/second.jpg" alt="Second Image" />
-        <img src="./images/third.jpg" alt="Third Image" />
-        <img src="./images/fourth.jpg" alt="Fourth Image" />
+        <img src="./images/portfolio/hair-style-cut.jpg" alt="First Image" />
+        <img src="./images/portfolio/barber-cut.jpg" alt="Second Image" />
+        <img src="./images/portfolio/final-step.jpg" alt="Third Image" />
+        <img src="./images/portfolio/hair-trim.jpg" alt="Fourth Image" />
       </section>
       <!-- Contacts Section -->
-      <section>
+      <section class="gray-background">
         <!-- Left Side -->
         <h2>Book a Service</h2>
         <!-- Right Side -->
-        <h2>Contacts</h2>
+        <h2 id="contacts">Contacts</h2>
         <address>
           Main Street, 7A Kyiv, 08132<br />
           <a href="tel:+380441111111">+38 044 111 11 11</a>
           <a href="mailto:barbershop@email.com">barbershop@email.com</a>
         </address>
-        <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+        <svg width="69" height="56">
+          <use href="./images/icons.svg#slider"></use>
+        </svg>
         <h3>working hours</h3>
         <p>Daily from 9:00 AM till 22:00 PM</p>
       </section>
     </main>
     <!-- Footer Section -->
-    <footer>
+    <footer class="suply-background">
       <p>&copy; Copyright 2022</p>
-      <img src="./images/Rectangle 5.jpg" alt="divider horizontal" />
+      <svg width="69" height="56">
+        <use href="./images/icons.svg#slider"></use>
+      </svg>
       <ul>
         <li>
           <a href="https://www.instagram.com/">Instagram</a>

@@ -1,0 +1,46 @@
+:root {
+  --brand-color: #ff6c00;
+  --gray-color: rgba (157, 164, 189, 0.6);
+  --black-color: #303030;
+  --white-color: #ffffff;
+  --content-color: #555;
+  --text-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social-media-link {
+  color: var(--black-color);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.2px;
+  word-wrap: break-word;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  color: var(--brand-color);
+}
+
+.gray-background {
+  background-color: rgba(25, 28, 38, 0.2);
+}
+
+.white-background {
+  background-color: var(--white-color);
+}
+
+.suply-background {
+  background-color: #f7f7f7;
+}
