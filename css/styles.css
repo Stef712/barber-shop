@@ -4,6 +4,7 @@
   --black-color: #303030;
   --white-color: #ffffff;
   --content-color: #555;
+  --info-color: #9da4bd;
   --text-font-family: "Open Sans", sans-serif;
   --title-font-family: "Raleway", sans-serif;
 }
@@ -101,14 +102,14 @@ ul {
 .hero-title {
   color: var(--white-color);
   font-size: 72px;
-  font-family: Raleway;
+  font-family: var(--title-font-family);
   font-weight: 700;
   letter-spacing: 3.6px;
   word-wrap: break-word;
 }
 
 .hero-text {
-  color: #9da4bd;
+  color: var(--info-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -143,7 +144,7 @@ ul {
 .black-title {
   color: var(--black-color);
   font-size: 42px;
-  font-family: Raleway;
+  font-family: var(--title-font-family);
   font-weight: 700;
   letter-spacing: 2.1px;
   word-wrap: break-word;
@@ -189,14 +190,14 @@ ul {
 .white-title {
   color: var(--white-color);
   font-size: 42px;
-  font-family: Raleway;
+  font-family: var(--title-font-family);
   font-weight: 700;
   letter-spacing: 2.1px;
   word-wrap: break-word;
 }
 
 .prices {
-  color: #9da4bd;
+  color: var(--info-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -249,7 +250,7 @@ ul {
 /* Contact Section */
 
 .contact-mail {
-  color: #9da4bd;
+  color: var(--info-color);
   font-size: 18px;
   font-weight: 400;
   text-decoration: underline;
@@ -270,7 +271,7 @@ ul {
 /* Footer Section */
 
 .footer-info {
-  color: #9da4bd;
+  color: var(--info-color);
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2.2px;
