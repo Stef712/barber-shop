@@ -58,21 +58,23 @@
           <nav>
             <ul>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" class="nav">About</a>
               </li>
               <li>
-                <a href="#prices">Services and Prices</a>
+                <a href="#prices" class="nav">Services and Prices</a>
               </li>
               <li>
-                <a href="#barbers">Barbers</a>
+                <a href="#barbers" class="nav">Barbers</a>
               </li>
-              <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#contacts" class="nav">Contacts</a></li>
             </ul>
           </nav>
           <address>
-            <a href="tel:+380441111111">+38 044 111 11 11</a>
+            <a href="tel:+380441111111" class="phone">+38 044 111 11 11</a>
           </address>
-          <button type="button">book a Service</button>
+          <button type="button" class="service-book-white">
+            book a Service
+          </button>
         </header>
       </div>
     </section>
@@ -82,18 +84,18 @@
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
-        <h3>A hair salon for men in Kyiv</h3>
-        <h1>BarberShop</h1>
-        <p>
+        <h3 class="gray-subtitle">A hair salon for men in Kyiv</h3>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-text">
           We are experts in trendy men's haircuts. We work quickly, carefully,
           and tastefully.
         </p>
         <!-- Control Buttons -->
-        <button type="button">Back</button>
+        <button type="button" class="hero-button">Back</button>
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
-        <button type="button">Next</button>
+        <button type="button" class="hero-button">Next</button>
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
@@ -107,20 +109,20 @@
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
-        <h3 id="about">About</h3>
-        <h2>The Best Barbershop in Your City</h2>
-        <p>
+        <h3 id="about" class="black-subtitle">About</h3>
+        <h2 class="black-title">The Best Barbershop in Your City</h2>
+        <p class="main-content">
           If you want to add more confidence to your image, you are definitely
           in the right place.
         </p>
-        <p>
+        <p class="second-content">
           We are a team that never rests on its laurels and yearns for change.
           And once you fall into the hands of our master, you will never be the
           same again. We are a team that is always on the same wavelength with
           clients. Therefore, we are always ready to improve everyone who comes
           to us!
         </p>
-        <button type="button">book a service</button>
+        <button type="button" class="service-book-black">book a service</button>
       </section>
       <!-- Price Section -->
       <section>
@@ -128,21 +130,25 @@
           <svg width="69" height="56">
             <use href="./images/icons.svg#slider"></use>
           </svg>
-          <h3>Spend time in the company of the best craftsmen</h3>
-          <h2 id="prices">Services and Prices</h2>
-          <ul>
+          <h3 class="gray-subtitle">
+            Spend time in the company of the best craftsmen
+          </h3>
+          <h2 id="prices" class="white-title">Services and Prices</h2>
+          <ul class="prices">
             <li>Men's Haircut from 300 UAH</li>
             <li>Beard Trim from 200 UAH</li>
             <li>Mustache Trim from 200 UAH</li>
             <li>Straight Razor Shave from 200 UAH</li>
           </ul>
-          <ul>
+          <ul class="prices">
             <li>Trainee Haircut from 50 UAH</li>
             <li>Buzz Cut from 200 UAH</li>
             <li>Kids Haircut (&lt;12 y.o.) from 300 UAH</li>
             <li>Gray Coverage from 200 UAH</li>
           </ul>
-          <button type="button">book a Service</button>
+          <button type="button" class="service-book-white">
+            book a Service
+          </button>
         </div>
       </section>
       <!-- Why Section -->
@@ -150,29 +156,29 @@
         <!-- Left Sub-section -->
         <ul>
           <li>
-            <h3>600<sup>+</sup></h3>
-            <p>Satisfied Customers per Day</p>
+            <h3 class="why-number">600<sup class="why-sup">+</sup></h3>
+            <p class="why-text">Satisfied Customers per Day</p>
           </li>
           <li>
-            <h3>50<sup>+</sup></h3>
-            <p>Excellent Service Awards</p>
+            <h3 class="why-number">50<sup class="why-sup">+</sup></h3>
+            <p class="why-text">Excellent Service Awards</p>
           </li>
           <li>
-            <h3>20<sup>+</sup></h3>
-            <p>The Best Barbers of Kyiv</p>
+            <h3 class="why-number">20<sup class="why-sup">+</sup></h3>
+            <p class="why-text">The Best Barbers of Kyiv</p>
           </li>
           <li>
-            <h3>100<sup>+</sup></h3>
-            <p>Gifts for Regular Customers</p>
+            <h3 class="why-number">100<sup class="why-sup">+</sup></h3>
+            <p class="why-text">Gifts for Regular Customers</p>
           </li>
         </ul>
         <!-- Right Sub-section -->
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
-        <h3>Old school</h3>
-        <h2>Why do they come to us?</h2>
-        <p>
+        <h3 class="black-subtitle">Old school</h3>
+        <h2 class="black-title">Why do they come to us?</h2>
+        <p class="main-content">
           Only good things are said about us. But it is better to see and feel 1
           time than to read 10 times.
         </p>
@@ -183,13 +189,15 @@
           <svg width="69" height="56">
             <use href="./images/icons.svg#slider"></use>
           </svg>
-          <h3>for true connoisseurs of the atmosphere</h3>
-          <h2 id="barbers">Our Barbers</h2>
+          <h3 class="black-subtitle">
+            for true connoisseurs of the atmosphere
+          </h3>
+          <h2 id="barbers" class="black-title">Our Barbers</h2>
           <ul>
             <li>
               <img src="./images/barbers/john-smith.jpg" alt="John Smith" />
-              <h4>John Smith</h4>
-              <p>Extreme Barber</p>
+              <h4 class="barber-name">John Smith</h4>
+              <p class="barber-service">Extreme Barber</p>
               <ul>
                 <li>
                   <svg width="69" height="56">
@@ -215,8 +223,8 @@
             </li>
             <li>
               <img src="./images/barbers/michele-doe.jpg" alt="Michele Doe" />
-              <h4>Michele Doe</h4>
-              <p>Extreme Barber</p>
+              <h4 class="barber-name">Michele Doe</h4>
+              <p class="barber-service">Extreme Barber</p>
               <ul>
                 <li>
                   <svg width="69" height="56">
@@ -242,8 +250,8 @@
             </li>
             <li>
               <img src="./images//barbers/alan-black.jpg" alt="Alan Black" />
-              <h4>Alan Black</h4>
-              <p>Extreme Barber</p>
+              <h4 class="barber-name">Alan Black</h4>
+              <p class="barber-service">Extreme Barber</p>
               <ul>
                 <li>
                   <svg width="69" height="56">
@@ -275,7 +283,7 @@
         <svg width="69" height="56">
           <use href="./images/icons.svg#slider"></use>
         </svg>
-        <h3>In Latin, "barba" means "beard"</h3>
+        <h3 class="black-subtitle">In Latin, "barba" means "beard"</h3>
         <img src="./images/portfolio/hair-style-cut.jpg" alt="First Image" />
         <img src="./images/portfolio/barber-cut.jpg" alt="Second Image" />
         <img src="./images/portfolio/final-step.jpg" alt="Third Image" />
@@ -285,34 +293,40 @@
       <section>
         <div class="gray-background">
           <!-- Left Side -->
-          <h2>Book a Service</h2>
+          <h2 class="white-title">Book a Service</h2>
           <!-- Right Side -->
-          <h2 id="contacts">Contacts</h2>
-          <address>
+          <h2 id="contacts" class="white-title">Contacts</h2>
+          <address class="prices">
             Main Street, 7A Kyiv, 08132<br />
-            <a href="tel:+380441111111">+38 044 111 11 11</a>
-            <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+            <a href="tel:+380441111111" class="prices">+38 044 111 11 11</a>
+            <a href="mailto:barbershop@email.com" class="contact-mail"
+              >barbershop@email.com</a
+            >
           </address>
           <svg width="69" height="56">
             <use href="./images/icons.svg#slider"></use>
           </svg>
-          <h3>working hours</h3>
-          <p>Daily from 9:00 AM till 22:00 PM</p>
+          <h3 class="white-subtitle">working hours</h3>
+          <p class="prices">Daily from 9:00 AM till 22:00 PM</p>
         </div>
       </section>
     </main>
     <!-- Footer Section -->
     <footer class="suply-background">
-      <p>&copy; Copyright 2022</p>
+      <p class="footer-info">&copy; Copyright 2022</p>
       <svg width="69" height="56">
         <use href="./images/icons.svg#slider"></use>
       </svg>
       <ul>
         <li>
-          <a href="https://www.instagram.com/">Instagram</a>
+          <a href="https://www.instagram.com/" class="social-media-link"
+            >Instagram</a
+          >
         </li>
         <li>
-          <a href="https://www.youtube.com/">Youtube</a>
+          <a href="https://www.youtube.com/" class="social-media-link"
+            >Youtube</a
+          >
         </li>
       </ul>
     </footer>
